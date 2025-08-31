@@ -40,6 +40,11 @@ const film = defineType({
       type: 'image',
     }),
     defineField({
+      name: 'hero',
+      title: 'Hero',
+      type: 'image',
+    }),
+    defineField({
       name: 'releaseYear',
       title: 'Release Year',
       type: 'number',
