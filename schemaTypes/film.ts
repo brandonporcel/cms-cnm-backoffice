@@ -35,6 +35,11 @@ const film = defineType({
       },
     }),
     defineField({
+      name: 'posterFont',
+      title: 'Poster Font Image',
+      type: 'image',
+    }),
+    defineField({
       name: 'releaseYear',
       title: 'Release Year',
       type: 'number',
